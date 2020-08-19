@@ -20,7 +20,7 @@ The output should look as follows:
 192.168.1.4 -> 1200000
 192.168.1.1 -> 125000
 
-Question2: Using your preferred scripting language and/or shell command(s), parse the above log file and
+Question 2: Using your preferred scripting language and/or shell command(s), parse the above log file and
 print to stdout, a summary of the distinct routes requested, with the count of the number of times
 that each route has been requested. The output should be sorted in order of descending
 number of requests.
