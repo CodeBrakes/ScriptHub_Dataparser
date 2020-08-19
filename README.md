@@ -1,4 +1,4 @@
-# ScriptHub_Dataparser
+# ScriptHub Dataparser
 A simple Pythonic CSV dataparser.
 
 Data Parsing / Scripting
