@@ -1,0 +1,49 @@
+
+
+*************** Pandas dataframe information ***************
+
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 6 entries, 0 to 5
+Data columns (total 8 columns):
+ #   Column                                     Non-Null Count  Dtype 
+---  ------                                     --------------  ----- 
+ 0   Access Date                                6 non-null      object
+ 1   Access Time                                6 non-null      object
+ 2   Requestor IP                               6 non-null      object
+ 3   HTTP Method                                6 non-null      object
+ 4   Requested Route                            6 non-null      object
+ 5   HTTP Status code                           6 non-null      int64 
+ 6   Number of bytes returned to the requestor  6 non-null      int64 
+ 7   Duration of the request - in microseconds  6 non-null      int64 
+dtypes: int64(3), object(5)
+memory usage: 512.0+ bytes
+None
+
+
+*************** Results for Question 1 ***************
+
+
+  Requestor IP  Duration of the request - in microseconds
+0  192.168.1.1                                     100000
+1     10.1.1.2                                     200000
+2  192.168.1.2                                     123400
+3  192.168.1.3                                     900000
+4  192.168.1.4                                    1200000
+5  192.168.1.1                                     125000
+
+
+*************** Results for Question 2 ***************
+
+
+Elements of the string list:  ['/route1', '/route1', '/route11', '/route2', '/route3', '/route1']
+
+For loop execution ended.
+- Execution time: O(N+1) -
+
+Route 1 appeared: 3 times...
+Route 2 appeared: 1 times...
+Route 3 appeared: 1 times...
+Route 11 appeared: 1 times...
+
+Process finished with exit code 0
