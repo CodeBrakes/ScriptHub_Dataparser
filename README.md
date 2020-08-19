@@ -3,14 +3,7 @@ A simple Pythonic CSV dataparser.
 
 Data Parsing / Scripting
 Suppose that we have a web server log file, with the following space-delimited contents:
-● Access Date
-● Access Time
-● Requestor IP
-● HTTP Method
-● Requested Route
-● HTTP Status code
-● Number of bytes returned to the requestor
-● Duration of the request - in microseconds
+Access Date, Access Time, Requestor IP, HTTP Method, Requested Route, HTTP Status code, Number of bytes returned to the requestor, Duration of the request - in microseconds
 
 Given the following log file contents:
 2017-01-01 12:00:00 192.168.1.1 GET /route1 200 12345 100000
