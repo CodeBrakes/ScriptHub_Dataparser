@@ -1,7 +1,7 @@
 # ScriptHub Dataparser
 A simple Pythonic CSV dataparser.
 
-Data Parsing / Scripting
+# Data Parsing / Scripting
 Suppose that we have a web server log file, with the following space-delimited contents:
 Access Date, Access Time, Requestor IP, HTTP Method, Requested Route, HTTP Status code, Number of bytes returned to the requestor, Duration of the request - in microseconds
 
